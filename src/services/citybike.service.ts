@@ -12,3 +12,13 @@ export const fetchNetworks = async () => {
     throw error
   }
 }
+
+export const fetchStations = async (networkId: string) => {
+  try {
+    const response = await axios.get(`${API_BASE_URL}/networks/${networkId}`)
+    return response.data.network.stations
+  } catch (error) {
+    console.error("Error fetching network details:", error)
+    throw error
+  }
+}
