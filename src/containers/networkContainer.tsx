@@ -1,8 +1,10 @@
+import { useTranslation } from "react-i18next"
 import { useNavigate } from "react-router-dom"
 import { useNetworks } from "../hooks/useNetworks"
 import { NetworkList } from "../presenters/networkList"
 
 export const NetworkContainer = () => {
+  const { t } = useTranslation()
   const { data: networks, isLoading, error } = useNetworks()
   const navigate = useNavigate()
 
@@ -10,8 +12,8 @@ export const NetworkContainer = () => {
     navigate(`/stations/${id}`)
   }
 
-  if (isLoading) return <p>Cargando redes...</p>
-  if (error) return <p>Error al cargar redes.</p>
+  if (isLoading) return <p>{t("loading")}</p>
+  if (error) return <p>{t("error")}</p>
 
   return <NetworkList networks={networks} onSelect={handleSelect} />
 }

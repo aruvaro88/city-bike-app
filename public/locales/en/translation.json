@@ -1,0 +1,15 @@
+{
+  "title": "Bike Networks in Spain",
+  "backToNetworks": "Back to Networks",
+  "loading": "Loading...",
+  "error": "Error loading data",
+  "company": "Company",
+  "city": "City",
+  "availability": "Availability",
+  "lastUpdate": "Last update",
+  "bikes": "Bikes",
+  "high": "High",
+  "medium": "Medium",
+  "low": "Low",
+  "seeOnGoogleMaps": "See on Google Maps"
+}

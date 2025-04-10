@@ -1,0 +1,15 @@
+{
+  "title": "Redes de Bicicletas en España",
+  "backToNetworks": "Volver a Redes",
+  "loading": "Cargando...",
+  "error": "Error al cargar los datos",
+  "company": "Empresa",
+  "city": "Ciudad",
+  "availability": "Disponibilidad",
+  "lastUpdate": "Última actualización",
+  "bikes": "Bicicletas",
+  "high": "Alto",
+  "medium": "Medio",
+  "low": "Bajo",
+  "seeOnGoogleMaps": "Ver en Google Maps"
+}
