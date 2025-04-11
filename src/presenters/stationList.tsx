@@ -5,8 +5,8 @@ import { Station } from "../models/station"
 import dayjs from "../utils/dayjsConfig"
 
 const getAvailability = (bikes: number) => {
-  if (bikes < 3) return t("low")
-  if (bikes < 5) return t("medium")
+  if (bikes < 4) return t("low")
+  if (bikes < 10) return t("medium")
   return t("high")
 }
 
