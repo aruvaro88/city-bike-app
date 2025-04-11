@@ -1,4 +1,4 @@
-# Bike Networks Spain
+# CityBike App
 
 Aplicación desarrollada en React + TypeScript para visualizar redes de bicicletas públicas en España, utilizando la API pública de [CityBikes](https://api.citybik.es/v2/). Permite ver un listado de redes disponibles, seleccionar una red y consultar sus estaciones con indicadores de disponibilidad y acceso directo a su ubicación en Google Maps.
 
